@@ -1,0 +1,11 @@
+[package]
+name = "brotli-decompress"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy-sol-types = { workspace = true }
+anyhow = { workspace = true }
+brotli-decompressor = { workspace = true }
+rlp = { workspace = true }
+hex = { workspace = true }
